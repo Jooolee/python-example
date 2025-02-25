@@ -10,7 +10,7 @@ def get_db_connection():
 
 @app.route('/', methods=['GET'])
 def main():
-    return jsonify({"message": "Welcome to the API"}), 200
+    return jsonify({"status": "ok"}), 200
 
 # 创建用户
 @app.route('/users', methods=['POST'])
@@ -132,3 +132,5 @@ def delete_user(user_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+    # 暴露 Flask 应用实例
+    app = Flask(__name__)
