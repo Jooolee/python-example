@@ -46,3 +46,13 @@ conda activate flask_mysql_demo
 # 生成requirements.txt依赖文件
 pip freeze > requirements.txt
 ```
+
+#### poetry 管理依赖
+```shell
+# pyproject.toml
+poetry init 
+# 添加依赖
+poetry add xxx
+# poetry.lock
+poetry install
+```
