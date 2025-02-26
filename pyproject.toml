@@ -2,7 +2,7 @@
 name = "python-example"
 version = "0.1.0"
 description = ""
-authors = ["zhaolin.wu <zhaolin.wu@narwal.com>"]
+authors = ["zhaolin.wu <zhaolin.wu@xxx.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
